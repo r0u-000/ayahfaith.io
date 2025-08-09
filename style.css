@@ -1,0 +1,83 @@
+@font-face {
+    font-family: IP;
+    src: url(src/fonts/MYRIADPRO-SEMIBOLD.OTF);
+}
+@font-face {
+    font-family: RV;
+    src: url(src/fonts/RobotoCondensed-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: QFF;
+    src: url(src/fonts/Qlam_Quran.ttf);
+}
+
+
+body{margin: 0;}
+nav{
+    font-family: IP;
+    margin: auto;
+    margin-top: 10px;
+    background: linear-gradient(to right, #35B34A, #039445); 
+    border-radius: 100px;
+    height: 40px;
+    width: 80%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    ul,li{
+        width: 80%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;    
+    }
+    img{
+        vertical-align: middle;
+        width: 20px; height: 20px;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+}
+
+.main{
+    text-align: center;
+    p{
+        margin-top: -85px;
+        font-family: RV;
+        font-weight: bold;
+        color: #35B34A;
+    }
+    .img-off{
+        display: flex;
+        justify-content: center;
+        margin-left: -20px;
+        img{width: 350px; height: 350px;}
+    }
+}
+
+.main2{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;    
+
+    #Ayah{
+        margin-top: 20px;
+        margin-top: -72px;
+        text-align: center;
+        
+    }
+   
+} .btnGen{
+    margin-left: 582px;
+    margin-top: 20px;
+
+    #genAyah{
+        width: 200px; height: 30px;
+        border-radius: 10px;
+        border: none;
+        background-color: #35B34A;
+        color: white;
+        cursor:pointer ;
+        font-family: IP;
+    }}
